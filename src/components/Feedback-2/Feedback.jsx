@@ -1,23 +1,36 @@
 import styles from './Feedback.module.css'
-import { MapPin, Package } from 'lucide-react'
+
 export default function Feedback() {
     return (
-        <section>
-            <h1>Com seu feedback podemos planejar uma cidade melhor!</h1>
-            <div>
-                <MapPin/>
-                <h2>Converse conosco pelo WhatsApp</h2>
-                <p>Qual problema ela resolve? Descreva aqui e tente provar o seu ponto.</p>
-            </div>
-            <div>
-                <Package/>
-                <h2>Os gestores da cidade</h2>
-                <p>Com base em suas informações, nossa IA encontra a melhor região que atenda sua necessidades</p>
-            </div>
-            <div>
-                <Package/>
-                <h2>Beneficio 3</h2>
-                <p>Qual problema ela resolve? Descreva aqui e tente provar o seu ponto.</p>
+        <section className={styles.section}>
+            <h1 className={styles.title}>
+                Com seu feedback podemos planejar uma cidade melhor!
+            </h1>
+            
+            <div className={styles.cardsContainer}>
+                <div className={`${styles.card} ${styles.cardYellow}`}>
+                    <div className={styles.cardIcon}>📍</div>
+                    <h3 className={styles.cardTitle}>Converse conosco pelo WhatsApp</h3>
+                    <p className={styles.cardDescription}>
+                        Qual problema da revisão? Descreva aqui e vamos tentar ajudar juntos!
+                    </p>
+                </div>
+
+                <div className={`${styles.card} ${styles.cardBlue}`}>
+                    <div className={styles.cardIcon}>🎯</div>
+                    <h3 className={styles.cardTitle}>Os gestores da cidade</h3>
+                    <p className={styles.cardDescription}>
+                        Com base em suas informações, nossos os assuntos e outras regiões que exigem grande prioridade
+                    </p>
+                </div>
+
+                <div className={`${styles.card} ${styles.cardGreen}`}>
+                    <div className={styles.cardIcon}>🏠</div>
+                    <h3 className={styles.cardTitle}>Encontre seu lugar</h3>
+                    <p className={styles.cardDescription}>
+                        Qual problema do setor? Descreva aqui e senta próxi e tão perto quanto você precisa
+                    </p>
+                </div>
             </div>
         </section>
     )
