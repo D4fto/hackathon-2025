@@ -1,0 +1,150 @@
+.footerContainer {
+  background: linear-gradient(120deg, #e0f7fa 0%, #aad4e1 100%);
+  padding: 3rem 2rem 2rem 2rem;
+  text-align: center;
+  border-top: 3px solid #00b4d8;
+  margin-top: 4rem;
+  box-shadow: 0 -4px 24px rgba(44, 62, 80, 0.07);
+  position: relative;
+  z-index: 2;
+}
+
+.title {
+  font-size: 2.3rem;
+  font-weight: 800;
+  color: #0077b6;
+  margin-bottom: 2.2rem;
+  letter-spacing: 1.5px;
+  text-shadow: 0 2px 8px #b2ebf2;
+}
+
+.devsSection {
+  margin-bottom: 2.8rem;
+}
+
+.devsTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #023e8a;
+  margin-bottom: 1.2rem;
+  letter-spacing: 0.5px;
+}
+
+.devsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.2rem;
+}
+
+.devItem {
+  background: linear-gradient(135deg, #f0f8ff 60%, #caf0f8 100%);
+  border-radius: 22px;
+  box-shadow: 0 6px 24px rgba(44, 62, 80, 0.10);
+  padding: 1.5rem 2rem;
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  border: 2px solid #90e0ef;
+  transition: box-shadow 0.2s, transform 0.2s, border 0.2s;
+  position: relative;
+}
+
+.devItem:hover {
+  box-shadow: 0 12px 32px rgba(0, 119, 182, 0.18);
+  transform: translateY(-6px) scale(1.03);
+  border: 2px solid #00b4d8;
+}
+
+.devName {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #0077b6;
+  margin-bottom: 0.2rem;
+  letter-spacing: 0.5px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 0.25rem;
+  transition: transform 0.2s, filter 0.2s;
+  vertical-align: middle;
+  filter: drop-shadow(0 2px 6px #b2ebf2);
+}
+
+.icon:hover {
+  transform: scale(1.18) rotate(-8deg);
+  filter: drop-shadow(0 4px 12px #00b4d8);
+}
+
+.fontesSection {
+  margin-top: 2.8rem;
+}
+
+.fontesTitle {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #023e8a;
+  margin-bottom: 0.8rem;
+  letter-spacing: 0.5px;
+}
+
+.fontesLinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.3rem;
+}
+
+.fontesLinks a {
+  color: #0077b6;
+  font-weight: 600;
+  text-decoration: none;
+  background: linear-gradient(90deg, #e0f7fa 60%, #90e0ef 100%);
+  padding: 0.5rem 1.2rem;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px #b2ebf2;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  font-size: 1.05rem;
+  border: 1.5px solid #90e0ef;
+}
+
+.fontesLinks a:hover {
+  background: linear-gradient(90deg, #00b4d8 60%, #48cae4 100%);
+  color: #fff;
+  box-shadow: 0 4px 16px #00b4d8;
+  border: 1.5px solid #00b4d8;
+}
+
+@media (max-width: 900px) {
+  .devsList {
+    gap: 1.2rem;
+  }
+  .devItem {
+    min-width: 140px;
+    padding: 1.1rem 0.7rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .footerContainer {
+    padding: 1.5rem 0.5rem 1rem 0.5rem;
+  }
+  .devsList {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .devItem {
+    width: 100%;
+    min-width: unset;
+    padding: 1rem 0.5rem;
+  }
+  .fontesLinks {
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+}

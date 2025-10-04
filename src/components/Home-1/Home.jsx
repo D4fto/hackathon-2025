@@ -4,7 +4,7 @@ import imagemCM from "../../assets/campo-mourao.png";
 
 export default function Home() {
   return (
-    <div className={styles.homeContainer}>
+    <div id="home" className={styles.homeContainer}>
       <div className={styles.contentSection}>
         <div className={styles.headerSection}>
           <h1 className={styles.title}>Meu Bairro Meu Mourão</h1>

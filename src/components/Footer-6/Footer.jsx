@@ -4,8 +4,8 @@ import github from '../../assets/github.png'
 
 export default function Footer() {
     return (
-        <footer className={styles.footerContainer}>
-            <h1 className={styles.title}>Feedback</h1>
+        <footer id="footer" className={styles.footerContainer}>
+            <h1 className={styles.title}>Footer</h1>
             <div className={styles.devsSection}>
                 <p className={styles.devsTitle}>Desenvolvedores:</p>
                 <div className={styles.devsList}>
@@ -68,10 +68,12 @@ export default function Footer() {
             <div className={styles.fontesSection}>
                 <p className={styles.fontesTitle}>Fontes da Nasa, para aprendizado da IA:</p>
                 <div className={styles.fontesLinks}>
-                    <a href="#">sdfgh</a>
-                    <a href="#">sdfgh</a>
-                    <a href="#">sdfgh</a>
-                    <a href="#">sdfgh</a>
+                    <a href="https://www.earthdata.nasa.gov/worldview">Nasa World View</a>
+                    <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a>
+                    <a href="http://eotoolkit.unhabitat.org/">Eo Toolkit</a>
+                    <a href="https://www.worldpop.org/">World Pop</a>
+                    <a href="https://visualizador.inde.gov.br/">Visualizador</a>
+                    <a href="https://www.dgi.inpe.br/catalogo/explore">Inpe</a>
                 </div>
             </div>
         </footer>

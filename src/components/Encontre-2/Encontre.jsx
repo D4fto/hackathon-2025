@@ -3,7 +3,7 @@ import whats from "../../assets/whats.png";
 
 export default function Encontre() {
   return (
-    <section className={styles.section}>
+    <section id="encontre" className={styles.section}>
       <div className={styles.texts}>
         <div className={styles.textContainer}>
           <h1 className={styles.title}>Encontre seu "cantinho"</h1>
@@ -22,11 +22,9 @@ export default function Encontre() {
         </div>
       </div>
       <button className={styles.whatsappButton}>
-        <span>
-          <img src={whats} alt="" className={styles.whatsappIcon} />
-        </span>
-        WhatsApp
-      </button>
+                <img src={whats} alt="" className={styles.whatsappIcon} />
+                WhatsApp
+            </button>
     </section>
   );
 }

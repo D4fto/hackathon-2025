@@ -1,6 +1,7 @@
 import styles from './NavBar.module.css'
 import imagem from '../../assets/logo.png'
 
+
 export default function NavBar() {
     return (
         <div>
@@ -9,10 +10,10 @@ export default function NavBar() {
                     <img src={imagem} alt="LOGO" className={styles.imagem} />
                 </a>
                 <div className={styles.menu}>
-                    <a href="" className={styles.menuItem}>Home</a>
-                    <a href="" className={styles.menuItem}>Sobre</a>
-                    <a href="" className={styles.menuItem}>Serviços</a>
-                    <a href="" className={styles.menuItem}>Contatos</a>
+                    <a href="#home" className={styles.menuItem}>Home</a>
+                    <a href= "#encontre" className={styles.menuItem}>Sobre</a>
+                    <a href= "#ia" className={styles.menuItem}>Serviços</a>
+                    <a href= "#footer" className={styles.menuItem}>Contatos</a>
                     <button className={styles.loginButton}>
                         <a href="" className={styles.loginLink}>Sou um Gestor</a>
                     </button>

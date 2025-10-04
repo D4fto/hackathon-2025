@@ -40,11 +40,12 @@
 }
 
 .whatsappButton {
-    margin: 5px;
+    margin: 10px;
     display: flex;
     align-items: center;
     gap: 0.8rem;
     background-color: #25d366;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
     color: white;
     border: none;
     padding: 1rem 2rem;
