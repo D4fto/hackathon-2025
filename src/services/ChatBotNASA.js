@@ -4,7 +4,7 @@ import fetch from "node-fetch"
 const app = express()
 app.use(express.json())
 
-const VERIFY_TOKEN = "seu_token_verificacao"
+const VERIFY_TOKEN = "123"
 const WHATSAPP_TOKEN = "EAALMNFV0edkBPlwkUIpWxtlFA7E8n9Harpop3DU7xztflygT0OzvWuAxSfD183ftCtMmJZCvZCj2qZABiakeghyF4Rl37w8hZCPLlxLsd87ce565ngUZAZCxf3EuzySs0vubQPae8N1wFW0mAZA4bdWRZByrtfZAF1nZCjBy4i7YYCW57z4ZAhpjGZBCqymkfUWuikeNWbHH7LxfqbyoYrlRTKZCSKchqYAiekG0GHtCtkqRoaC5ZCpwZDZD"
 const GEMINI_API_KEY = "AIzaSyDws_lwp4wHqPiqOW99LS9wR-VfHIvQfOA"
 

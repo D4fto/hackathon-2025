@@ -1,4 +1,5 @@
 import styles from "./Home.module.css";
+import whats from "../../assets/whats.png";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
         </div>
         <div className={styles.whatsappSection}>
             <button className={styles.whatsappButton}>
-                <img src="" alt="" className={styles.whatsappIcon} />
+                <img src={whats} alt="" className={styles.whatsappIcon} />
                 WhatsApp
             </button>
             <p className={styles.shareText}>Compartilhe sua opinião conosco!</p>

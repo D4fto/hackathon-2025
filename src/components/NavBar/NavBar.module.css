@@ -1,15 +1,17 @@
 .navbar {
+    margin-top: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 3rem;
     background: linear-gradient(to right, #e3f2fd, #f0f8ff);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
     position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95dvw;
     z-index: 1000;
 }
 
@@ -21,6 +23,12 @@
     font-weight: bold;
     color: #1976d2;
     text-decoration: none;
+}
+
+.imagem {
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
 }
 
 .logo::before {
@@ -36,7 +44,7 @@
 .menuItem {
     color: #5a6c7d;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 500;
     transition: color 0.3s ease;
     position: relative;
@@ -81,7 +89,7 @@
 .loginLink {
     color: white;
     text-decoration: none;
-    font-size: 0.95rem;
+    font-size: 1.3rem;
 }
 
 @media (max-width: 768px) {

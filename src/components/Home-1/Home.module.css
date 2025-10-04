@@ -1,0 +1,136 @@
+.homeContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem 6rem 2rem 6rem;
+    min-height: 100vh;
+    width: 100dvw;
+    background-color: #f5f5f5;
+    gap: 3rem;
+}
+
+.contentSection {
+    flex: 2;
+    max-width: 650px;
+}
+
+.headerSection {
+    margin-bottom: 3.5rem;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #1a1a1a;
+    margin: 0 0 1.5rem 0;
+    line-height: 1.2;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.whatsappSection {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.whatsappButton {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    background-color: #25d366;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+    transition: all 0.3s ease;
+}
+
+.whatsappButton:hover {
+    background-color: #20ba5a;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+}
+
+.whatsappIcon {
+    width: 30px;
+    height: 30px;
+}
+
+.whatsappIcon::before {
+    font-size: 1.5rem;
+}
+
+.shareText {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 0;
+}
+
+.imageSection {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainImage {
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    object-fit: cover;
+    background-color: #e0e0e0;
+    min-height: 400px;
+}
+
+@media (max-width: 1024px) {
+    .homeContainer {
+        flex-direction: column;
+        padding: 5rem 2rem 2rem 2rem;
+        text-align: center;
+    }
+
+    .contentSection {
+        max-width: 100%;
+    }
+
+    .whatsappSection {
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .title {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .homeContainer {
+        padding: 5rem 1.5rem 2rem 1.5rem;
+    }
+
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .subtitle {
+        font-size: 0.9rem;
+    }
+
+    .mainImage {
+        max-width: 100%;
+    }
+}
