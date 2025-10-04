@@ -1,5 +1,6 @@
 import styles from "./Home.module.css";
 import whats from "../../assets/whats.png";
+import imagemCM from "/src/assets/campo-mourao.png"
 
 export default function Home() {
   return (
@@ -23,7 +24,7 @@ export default function Home() {
       </div>
       
       <div className={styles.imageSection}>
-        <img src="" alt="" className={styles.mainImage} />
+        <img src={imagemCM} alt="" className={styles.mainImage} />
       </div>
     </div>
   );
