@@ -70,6 +70,7 @@
 }
 
 .loginButton {
+    margin: 5px;
     background: #42a5f5;
     color: white;
     border: none;

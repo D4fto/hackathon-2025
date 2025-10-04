@@ -13,8 +13,8 @@ function App() {
     <>
       <NavBar />
       <Home />
-      <Feedback />
       <Encontre />
+      <Feedback />
       <TagLine />
       <Testemunho />
       <Footer />
