@@ -24,7 +24,7 @@ export default function Home() {
       </div>
       
       <div className={styles.imageSection}>
-        <img src={imagemCM} alt="" className={styles.mainImage} />
+        {/* <img src={imagemCM} alt="" className={styles.mainImage} /> */}
       </div>
     </div>
   );

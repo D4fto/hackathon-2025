@@ -1,25 +1,20 @@
-import Home from './components/Home-1/Home'
-import Feedback from './components/Feedback-3/Feedback'
-import IA from './components/IA-4/IA'
-import Testemunho from './components/Testemunho-5/Testemunho'
-import Encontre from './components/Encontre-2/Encontre'
-import Footer from './components/Footer-6/Footer'
+import LadingPage from "./pages/LadingPage";
+import { Routes, Route } from "react-router-dom";
+import LoginTela from "./pages/LoginTela/LoginTela";
 
-import NavBar from './components/NavBar/NavBar'
+import NavBar from "./components/NavBar/NavBar";
 
 function App() {
-
   return (
     <>
       <NavBar />
-      <Home />
-      <Encontre />
-      <Feedback />
-      <IA />
-      <Testemunho />
-      <Footer />
+
+      <Routes>
+        <Route path="/" element={<LadingPage />} />
+        <Route path="/login" element={<LoginTela />} />
+      </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

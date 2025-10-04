@@ -73,11 +73,14 @@
 }
 
 .imageSection {
+    background-image: url("src/assets/campo-mourao.png");
+    background-size: cover;
     flex: 2;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
+    height: 30rem;
     border: 5px black double;
 }
 
