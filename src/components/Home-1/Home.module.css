@@ -40,6 +40,7 @@
 }
 
 .whatsappButton {
+    margin: 5px;
     display: flex;
     align-items: center;
     gap: 0.8rem;
@@ -48,26 +49,20 @@
     border: none;
     padding: 1rem 2rem;
     border-radius: 30px;
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: 600;
     cursor: pointer;
-    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
     transition: all 0.3s ease;
 }
 
 .whatsappButton:hover {
     background-color: #20ba5a;
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
 }
 
 .whatsappIcon {
     width: 30px;
     height: 30px;
-}
-
-.whatsappIcon::before {
-    font-size: 1.5rem;
 }
 
 .shareText {
@@ -81,14 +76,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 30px;
+    border: 5px black double;
 }
 
 .mainImage {
+    border-radius: 30px;
     width: 100%;
-    max-width: 750px;
+    max-width: 900px;
     height: auto;
     border-radius: 30px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
     object-fit: cover;
     background-color: #e0e0e0;
     min-height: 400px;

@@ -1,12 +1,18 @@
 .section {
-    padding: 5rem 3rem;
+    padding: 5rem 15rem;
     background-color: #9a9a88;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 400px;
+    min-height: 500px;
+}
+
+.texts {
+    display: flex;
+    justify-content: space-around;
+    gap: 6rem;
 }
 
 .title {
@@ -29,11 +35,12 @@
 .whatsappButton {
     display: inline-flex;
     align-items: center;
-    gap: 0.8rem;
     background-color: #25d366;
+    gap: 0.7rem;
     color: white;
     border: none;
-    padding: 1rem 2.5rem;
+    padding: 1rem 4rem;
+    margin: 10px;
     border-radius: 30px;
     font-size: 1rem;
     font-weight: 600;

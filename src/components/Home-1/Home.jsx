@@ -1,6 +1,6 @@
 import styles from "./Home.module.css";
 import whats from "../../assets/whats.png";
-import imagemCM from "/src/assets/campo-mourao.png"
+import imagemCM from "../../assets/campo-mourao.png";
 
 export default function Home() {
   return (

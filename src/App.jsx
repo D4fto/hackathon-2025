@@ -14,9 +14,9 @@ function App() {
       <NavBar />
       <Home />
       <Feedback />
+      <Encontre />
       <TagLine />
       <Testemunho />
-      <Encontre />
       <Footer />
     </>
   )

@@ -1,18 +1,20 @@
 .navbar {
+    height: 5rem;
+    overflow: hidden;
     margin-top: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 3rem;
-    background: linear-gradient(to right, #e3f2fd, #f0f8ff);
+    background: #BAE0FF;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: 23px;
     position: fixed;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
     width: 95dvw;
-    z-index: 1000;
+    z-index: 1000   ;
 }
 
 .logo {
@@ -68,20 +70,18 @@
 }
 
 .loginButton {
-    background: linear-gradient(to right, #42a5f5, #64b5f6);
+    background: #42a5f5;
     color: white;
     border: none;
     padding: 0.7rem 1.8rem;
     border-radius: 25px;
     cursor: pointer;
     font-weight: 600;
-    box-shadow: 0 4px 12px rgba(66, 165, 245, 0.3);
     transition: all 0.3s ease;
 }
 
 .loginButton:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(66, 165, 245, 0.4);
 }
 
 .loginLink {

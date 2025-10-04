@@ -20,15 +20,15 @@ export default function Feedback() {
                     <div className={styles.cardIcon}>🎯</div>
                     <h3 className={styles.cardTitle}>Os gestores da cidade</h3>
                     <p className={styles.cardDescription}>
-                        Com base em suas informações, nossos os assuntos e outras regiões que exigem grande prioridade
-                    </p>
+                        Com base em suas informações, os gestores podem planejar melhorias para a cidade. 
+                    </p>   
                 </div>
 
                 <div className={`${styles.card} ${styles.cardGreen}`}>
                     <div className={styles.cardIcon}>🏠</div>
-                    <h3 className={styles.cardTitle}>Encontre seu lugar</h3>
+                    <h3 className={styles.cardTitle}>Treinamento de IA</h3>
                     <p className={styles.cardDescription}>
-                        Qual problema do setor? Descreva aqui e senta próxi e tão perto quanto você precisa
+                        A Inteligência Artificial aprende com os dados disponibilizados pela Nasa, para aprimorar suas respostas e moradores da cidade 
                     </p>
                 </div>
             </div>
