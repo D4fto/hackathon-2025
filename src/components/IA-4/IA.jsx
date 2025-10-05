@@ -1,5 +1,5 @@
 import styles from './IA.module.css'
-import cm from '../../assets/imagem-cm.jpeg'
+import whatsIA from '../../assets/whatsIA.jpeg'
 
 export default function IA() {
     return (
@@ -10,7 +10,7 @@ export default function IA() {
                 A aplicação da IA se dará por meio de um chat no WhatsApp, onde o usuário terá o auxilio da IA para procurar locais de interesse, e se for o caso, dar um feedback sobre o bairro. Ademais, a IA se expande também para a análise, validação e quantificação de dados para o gestor</h3>
             </div>
             <div className={styles.imageSection}>
-                <img src={cm} alt="imagem do chatbot ou do dashboard" />
+                <img src={whatsIA} alt="oii" />
             </div>
         </div>
     )

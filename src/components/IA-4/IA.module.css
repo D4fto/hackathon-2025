@@ -5,7 +5,7 @@
     padding: 50px;
     background-color: #ffffff;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 10px;
 }
 #testemunhos::before {
     content: "";
@@ -37,8 +37,10 @@
 }
 
 .imageSection img {
+    display: flex;
+    justify-content: center;
     width: 100%;
-    height: auto;
-    border-radius: 10px;
+    height: 500px;
+    border-radius: 13px;
     border: 6px black double;
 }
