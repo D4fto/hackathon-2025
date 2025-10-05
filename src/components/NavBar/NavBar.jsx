@@ -6,20 +6,20 @@ export default function NavBar() {
   return (
     <div>
       <nav className={styles.navbar}>
-        <a href="#home" className={styles.logo}>
+        <a href="/#home" className={styles.logo}>
           <img src={imagem} alt="LOGO" className={styles.imagem} />
         </a>
         <div className={styles.menu}>
-          <a href="#home" className={styles.menuItem}>
+          <a href="/#home" className={styles.menuItem}>
             Home
           </a>
-          <a href="#encontre" className={styles.menuItem}>
+          <a href="/#encontre" className={styles.menuItem}>
             Sobre
           </a>
-          <a href="#ia" className={styles.menuItem}>
+          <a href="/#ia" className={styles.menuItem}>
             Serviços
           </a>
-          <a href="#footer" className={styles.menuItem}>
+          <a href="/#footer" className={styles.menuItem}>
             Contatos
           </a>
           <button className={styles.loginButton}>

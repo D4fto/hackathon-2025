@@ -21,7 +21,7 @@
 .title {
     font-size: 3rem;
     font-weight: 800;
-    color: #1a1a1a;
+    color: #2c3e50;
     margin: 0 0 1.5rem 0;
 }
 
@@ -73,7 +73,7 @@
 }
 
 .imageSection {
-    background-image: url("src/assets/campo-mourao.png");
+    background-image: url("src/assets/imagem-cm.jpeg");
     background-size: cover;
     flex: 2;
     display: flex;
@@ -82,6 +82,7 @@
     border-radius: 30px;
     height: 30rem;
     border: 5px black double;
+    width: 100%;
 }
 
 .mainImage {

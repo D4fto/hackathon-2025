@@ -1,84 +1,84 @@
 .section {
-    padding: 5rem 15rem;
-    background-color: #989898;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 500px;
+  padding: 5rem 15rem;
+  background-color: #989898;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px;
 }
 
 .texts {
-    display: flex;
-    justify-content: space-around;
-    gap: 6rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 6rem;
 }
 
 .title {
-    font-size: 3rem;
-    font-weight: 700;
-    color: #ffffff;
-    margin: 0 0 1.5rem 0;
+  font-size: 3.3rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 1.5rem 0;
 }
 
 .description {
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: #ffffff;
-    line-height: 1.7;
-    margin: 0 auto 2.5rem auto;
-    max-width: 700px;
-    opacity: 0.95;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1.7;
+  margin: 0 auto 2.5rem auto;
+  max-width: 700px;
+  opacity: 0.95;
 }
 
 .whatsappButton {
-    display: inline-flex;
-    align-items: center;
-    background-color: #25d366;
-    gap: 0.7rem;
-    color: white;
-    border: none;
-    padding: 1rem 4rem;
-    margin: 10px;
-    border-radius: 30px;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin: 5px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  background-color: #25d366;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .whatsappButton:hover {
-    background-color: #20ba5a;
-    transform: translateY(-2px);
+  background-color: #20ba5a;
+  transform: translateY(-2px);
 }
 
 .whatsappIcon {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .whatsappIcon::before {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 @media (max-width: 768px) {
-    .section {
-        padding: 4rem 1.5rem;
-        min-height: 350px;
-    }
+  .section {
+    padding: 4rem 1.5rem;
+    min-height: 350px;
+  }
 
-    .title {
-        font-size: 2rem;
-    }
+  .title {
+    font-size: 2rem;
+  }
 
-    .description {
-        font-size: 0.95rem;
-        margin-bottom: 2rem;
-    }
+  .description {
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
 
-    .whatsappButton {
-        padding: 0.9rem 2rem;
-        font-size: 0.95rem;
-    }
+  .whatsappButton {
+    padding: 0.9rem 2rem;
+    font-size: 0.95rem;
+  }
 }

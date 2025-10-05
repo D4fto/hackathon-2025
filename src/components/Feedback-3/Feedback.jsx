@@ -25,7 +25,7 @@ export default function Feedback() {
                 </div>
 
                 <div className={`${styles.card} ${styles.cardGreen}`}>
-                    <div className={styles.cardIcon}>🏠</div>
+                    <div className={styles.cardIcon}>🤖</div>
                     <h3 className={styles.cardTitle}>Treinamento de IA</h3>
                     <p className={styles.cardDescription}>
                         A Inteligência Artificial aprende com os dados disponibilizados pela Nasa, para aprimorar suas respostas e moradores da cidade 

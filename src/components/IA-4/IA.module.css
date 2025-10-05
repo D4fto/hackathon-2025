@@ -1,0 +1,42 @@
+.IASection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: #ffffff;
+}
+#testemunhos::before {
+    content: "";
+    display: block;
+    height: 80px;       /* altura do header */
+    margin-top: -80px;  /* mesma altura negativa */
+    visibility: hidden;
+  }
+
+.textSection {
+    max-width: 600px;
+}
+
+.titulo {
+    font-size: 3.3rem;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.subTitulo {
+    font-size: 1.2rem;
+    color: #000000;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.imageSection {
+    max-width: 400px;
+}
+
+.imageSection img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 6px black double;
+}
