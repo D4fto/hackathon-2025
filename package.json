@@ -1,15 +1,18 @@
 {
-  "name": "hackathon-2025",
+  "name": "meu-bairro-meu-mourao",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://d4fto.github.io/MeuBairroMeuMourao",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.544.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
