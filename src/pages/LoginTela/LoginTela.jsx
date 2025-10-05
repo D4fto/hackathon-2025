@@ -1,4 +1,5 @@
 import styles from './LoginTela.module.css'
+import { Link } from 'react-router-dom'
 
 export default function LoginTela() {
     return (
@@ -15,7 +16,11 @@ export default function LoginTela() {
                     placeholder='Senha' 
                     className={styles.inputField}
                 />
-                <button className={styles.loginButton}>Login</button>
+                <button className={styles.loginButton}>
+                    <Link to="/dashboard" className={styles.loginLink}>
+                        Login
+                    </Link>
+                </button>
                 <a href="#" className={styles.cadastroLink}>
                     Não tem login, cadastre-se!!!
                 </a>

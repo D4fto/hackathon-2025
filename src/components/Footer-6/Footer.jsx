@@ -1,5 +1,6 @@
 import styles from "./Footer.module.css";
 import { Instagram, Github } from "lucide-react";
+import logo from "../../assets/logo.png";
 
 export default function Footer() {
   return (
@@ -178,6 +179,9 @@ export default function Footer() {
           <a href="https://www.worldpop.org/">World Pop</a>
           <a href="https://visualizador.inde.gov.br/">Visualizador</a>
           <a href="https://www.dgi.inpe.br/catalogo/explore">Inpe</a>
+        </div>
+        <div className={styles.logoContainer}>
+          <img src={logo} alt="" className={styles.logo} />
         </div>
       </div>
     </footer>

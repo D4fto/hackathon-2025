@@ -28,6 +28,28 @@ export default function NavBar() {
             </Link>
           </button>
         </div>
+        <label htmlFor="checkMenu" id="labelMenu">teste</label>
+      </nav>
+      <nav className={styles.verticalMenu}>
+        <div className={styles.menu}>
+          <button className={styles.loginButton}>
+            <Link to="/login" className={styles.loginLink}>
+              Sou um Gestor
+            </Link>
+          </button>
+          <a href="/#home" className={styles.menuItem}>
+            Home
+          </a>
+          <a href="/#encontre" className={styles.menuItem}>
+            Sobre
+          </a>
+          <a href="/#ia" className={styles.menuItem}>
+            Serviços
+          </a>
+          <a href="/#footer" className={styles.menuItem}>
+            Contatos
+          </a>
+        </div>
       </nav>
     </div>
   );

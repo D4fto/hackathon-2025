@@ -83,6 +83,7 @@
     height: 30rem;
     border: 5px black double;
     width: 100%;
+    aspect-ratio: 4/3;
 }
 
 .mainImage {
@@ -99,7 +100,7 @@
 @media (max-width: 1024px) {
     .homeContainer {
         flex-direction: column;
-        padding: 5rem 2rem 2rem 2rem;
+        padding: 20rem 2rem 2rem 2rem;
         text-align: center;
     }
 
@@ -120,7 +121,7 @@
 
 @media (max-width: 768px) {
     .homeContainer {
-        padding: 5rem 1.5rem 2rem 1.5rem;
+        padding: 10rem 1.5rem 2rem 1.5rem;
     }
 
     .title {

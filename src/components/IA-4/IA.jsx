@@ -1,5 +1,5 @@
 import styles from './IA.module.css'
-import cm from '../../assets/campo-mourao.png'
+import cm from '../../assets/imagem-cm.jpeg'
 
 export default function IA() {
     return (

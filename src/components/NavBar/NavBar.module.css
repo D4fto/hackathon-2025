@@ -82,6 +82,21 @@
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
 }
 
+.verticalMenu {
+    flex-direction: column;
+    height: 100dvh;
+    position: fixed;
+    right: 0;
+    top:0;
+    z-index: 1000;
+    background-color: #BAE0FF;
+    transform: translateX(100%);
+}
+.verticalMenu > .menu{ 
+    display: flex;
+    flex-direction: column !important;
+}
+
 .loginButton:hover {
     transform: translateY(-2px);
 }
@@ -91,23 +106,26 @@
     text-decoration: none;
     font-size: 1.3rem;
 }
-
 @media (max-width: 768px) {
     .navbar {
         padding: 1rem 1.5rem;
     }
     
-    .menu {
+    .navbar .menu {
         gap: 1.5rem;
     }
     
-    .menuItem {
+    .navbar .menuItem {
         font-size: 0.9rem;
     }
 }
 
 @media (max-width: 600px) {
-    .menu {
+    .navbar .menu {
         display: none;
     }
+    #checkMenu:checked~.navbar{
+        transform: translateX(0%);
+    }
+    
 }

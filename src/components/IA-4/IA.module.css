@@ -4,6 +4,8 @@
     align-items: center;
     padding: 50px;
     background-color: #ffffff;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 #testemunhos::before {
     content: "";
@@ -31,7 +33,7 @@
 }
 
 .imageSection {
-    max-width: 400px;
+    max-width: 500px;
 }
 
 .imageSection img {
