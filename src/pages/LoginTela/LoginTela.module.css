@@ -31,7 +31,10 @@
     margin: 0 0 2rem 0;
     text-align: left;
 }
-
+.erro{
+    color: #F00;
+    text-align: center;
+}
 .inputField {
     width: 100%;
     padding: 0.9rem 0;
