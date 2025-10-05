@@ -89,8 +89,10 @@
     right: 0;
     top:0;
     z-index: 1000;
+    width: 17rem;
     background-color: #BAE0FF;
     transform: translateX(100%);
+    transition: transform .3s;
 }
 .verticalMenu > .menu{ 
     display: flex;
@@ -100,7 +102,18 @@
 .loginButton:hover {
     transform: translateY(-2px);
 }
+.menuButton{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+    transition: transform .3s;
+    color: #5a6c7d;
+}
 
+.menuButton:focus{
+    outline: none;
+}
 .loginLink {
     color: white;
     text-decoration: none;
@@ -127,5 +140,8 @@
     #checkMenu:checked~.navbar{
         transform: translateX(0%);
     }
-    
+   
+    .menuButton{
+    display: block;
+    } 
 }

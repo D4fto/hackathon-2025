@@ -1,0 +1,23 @@
+.dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: #F1F1F1;
+}
+
+.div1 {
+    background-image: url(../../assets/dashboard1.jpeg);
+    margin-top: 8rem;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.link {
+    width: 100vw;
+    height: 100vh;
+    background: transparent;
+}

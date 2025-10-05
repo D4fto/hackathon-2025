@@ -17,7 +17,7 @@ export default function LoginTela() {
                     className={styles.inputField}
                 />
                 <button className={styles.loginButton}>
-                    <Link to="/dashboard" className={styles.loginLink}>
+                    <Link to="/dashboard1" className={styles.loginLink}>
                         Login
                     </Link>
                 </button>
