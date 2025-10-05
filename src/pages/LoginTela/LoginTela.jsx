@@ -27,15 +27,12 @@ export default function LoginTela() {
                     className={styles.inputField}
                 />
                 <button className={styles.loginButton}>
-                    {
-                        isMobile?
-                        <p className={styles.loginLink} onClick={erro}>
-                            Login
-                        </p>:
-                        <Link to="/dashboard1" className={styles.loginLink}>
-                            Login
-                        </Link>
-                    }
+                    
+                        
+                <Link to="/dashboard1" className={styles.loginLink}>
+                    Login
+                </Link>
+                    
                 </button>
                 <a href="#" className={styles.cadastroLink}>
                     Não tem login, cadastre-se!!!
