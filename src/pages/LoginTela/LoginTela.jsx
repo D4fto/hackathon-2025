@@ -1,10 +1,20 @@
 import styles from './LoginTela.module.css'
 import { Link } from 'react-router-dom'
+import { useState } from 'react';
+function isMobile() {
+    return /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  }
 
 export default function LoginTela() {
+    const [isError, setIsError] = useState(false)
+    function erro(){
+        setIsError(true)
+    }
+
     return (
         <div className={styles.loginContainer}>
             <div className={styles.loginBox}>
+                {isError&&<p className={styles.erro}>CPF ou Senha inválidos</p>}
                 <h1 className={styles.title}>Login</h1>
                 <input 
                     type="text" 
@@ -17,9 +27,15 @@ export default function LoginTela() {
                     className={styles.inputField}
                 />
                 <button className={styles.loginButton}>
-                    <Link to="/dashboard1" className={styles.loginLink}>
-                        Login
-                    </Link>
+                    {
+                        isMobile?
+                        <p className={styles.loginLink} onClick={erro}>
+                            Login
+                        </p>:
+                        <Link to="/dashboard1" className={styles.loginLink}>
+                            Login
+                        </Link>
+                    }
                 </button>
                 <a href="#" className={styles.cadastroLink}>
                     Não tem login, cadastre-se!!!
