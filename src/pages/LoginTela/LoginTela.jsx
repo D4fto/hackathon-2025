@@ -26,14 +26,14 @@ export default function LoginTela() {
                     placeholder='Senha' 
                     className={styles.inputField}
                 />
-                <button className={styles.loginButton}>
                     
-                        
+                
                 <Link to="/dashboard1" className={styles.loginLink}>
+                <button className={styles.loginButton}>
                     Login
+                </button>
                 </Link>
                     
-                </button>
                 <a href="#" className={styles.cadastroLink}>
                     Não tem login, cadastre-se!!!
                 </a>
